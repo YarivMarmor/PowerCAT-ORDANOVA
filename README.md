@@ -1,12 +1,12 @@
 # PowerCAT / ORDANOVA
 
-**Research preview v0.5.0 — statistical validation in progress.**
-
 ## Download for Windows
 
 **[Download PowerCAT / ORDANOVA v0.5.0 — Windows EXE](https://github.com/YarivMarmor/PowerCAT-ORDANOVA/releases/download/v0.5.0-preview/PowerCAT_ORDANOVA.exe)**
 
 Standalone Windows application. No Python or Jupyter installation required.
+
+**Research preview v0.5.0 — statistical validation in progress.**
 
 **Research Preview:** Statistical validation against the original Excel/VBA implementations is still in progress.
 
