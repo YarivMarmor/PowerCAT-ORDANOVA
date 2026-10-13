@@ -8,9 +8,6 @@ Standalone Windows application. No Python or Jupyter installation required.
 
 **Research preview v0.5.0 — statistical validation in progress.**
 
-**Research Preview:** Statistical validation against the original Excel/VBA implementations is still in progress.
-
-
 A Python desktop implementation for nominal and ordinal analysis of variance (CATANOVA / ORDANOVA), with interactive PDF/CDF plots and experiment-design review before analysis.
 
 > **Important:** Monte Carlo p-values, critical values and power calculations have **not** been fully validated against the original Excel/VBA versions. Do not treat current numerical inference as certified or use it for consequential decisions without independent verification. This is a public source-code preview, **not** a validated scientific release.
