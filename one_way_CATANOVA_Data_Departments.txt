@@ -1,0 +1,43 @@
+I,K,N
+Biotechnology Eng.,South,0
+Electrical & Electronic Eng.,South,2
+Mechanical Eng.,South,0
+Information systems Eng.,South,0
+Software Eng.,South,0
+Industrial Eng. & Managemant,South,1
+Biotechnology Eng.,Center,0
+Electrical & Electronic Eng.,Center,2
+Mechanical Eng.,Center,6
+Information systems Eng.,Center,1
+Software Eng.,Center,0
+Industrial Eng. & Managemant,Center,1
+Biotechnology Eng.,Galilee,21
+Electrical & Electronic Eng.,Galilee,39
+Mechanical Eng.,Galilee,39
+Information systems Eng.,Galilee,9
+Software Eng.,Galilee,60
+Industrial Eng. & Managemant,Galilee,31
+Biotechnology Eng.,Valleys,8
+Electrical & Electronic Eng.,Valleys,6
+Mechanical Eng.,Valleys,22
+Information systems Eng.,Valleys,4
+Software Eng.,Valleys,15
+Industrial Eng. & Managemant,Valleys,11
+Biotechnology Eng.,Haifa and around,11
+Electrical & Electronic Eng.,Haifa and around,21
+Mechanical Eng.,Haifa and around,16
+Information systems Eng.,Haifa and around,7
+Software Eng.,Haifa and around,19
+Industrial Eng. & Managemant,Haifa and around,15
+Biotechnology Eng.,Karmiel and around,11
+Electrical & Electronic Eng.,Karmiel and around,8
+Mechanical Eng.,Karmiel and around,9
+Information systems Eng.,Karmiel and around,3
+Software Eng.,Karmiel and around,28
+Industrial Eng. & Managemant,Karmiel and around,10
+Biotechnology Eng.,Krayot_Acre and aroud,14
+Electrical & Electronic Eng.,Krayot_Acre and aroud,19
+Mechanical Eng.,Krayot_Acre and aroud,22
+Information systems Eng.,Krayot_Acre and aroud,20
+Software Eng.,Krayot_Acre and aroud,30
+Industrial Eng. & Managemant,Krayot_Acre and aroud,49

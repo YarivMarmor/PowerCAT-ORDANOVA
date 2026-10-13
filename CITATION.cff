@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use PowerCAT / ORDANOVA, cite the software and the relevant methodology papers listed in README.md."
+type: software
+title: "PowerCAT / ORDANOVA: Python Research Preview"
+authors:
+  - family-names: Marmor
+    given-names: Yariv N.
+version: 0.5.0
+date-released: 2026-10-13
+repository-code: "https://github.com/YarivMarmor/PowerCAT-ORDANOVA"
+license: MIT
+keywords:
+  - ORDANOVA
+  - CATANOVA
+  - ordinal data
+  - categorical data
+  - Monte Carlo simulation

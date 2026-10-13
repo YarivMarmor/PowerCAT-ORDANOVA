@@ -1,0 +1,25 @@
+I,K,N
+Biotechnology Eng.,0,45
+Electrical & Electronic Eng.,0,0
+Mechanical Eng.,0,60
+Information systems Eng.,0,32
+Software Eng.,0,61
+Industrial Eng. & Managemant,0,84
+Biotechnology Eng.,1,1
+Electrical & Electronic Eng.,1,0
+Mechanical Eng.,1,5
+Information systems Eng.,1,0
+Software Eng.,1,5
+Industrial Eng. & Managemant,1,4
+Biotechnology Eng.,3,1
+Electrical & Electronic Eng.,3,18
+Mechanical Eng.,3,6
+Information systems Eng.,3,4
+Software Eng.,3,10
+Industrial Eng. & Managemant,3,5
+Biotechnology Eng.,5,18
+Electrical & Electronic Eng.,5,79
+Mechanical Eng.,5,43
+Information systems Eng.,5,8
+Software Eng.,5,76
+Industrial Eng. & Managemant,5,25

@@ -1,0 +1,11 @@
+PowerCAT / ORDANOVA - GitHub upload package (v0.5.0)
+
+1. Unzip this archive on your Windows computer.
+2. In your empty GitHub repository, click "uploading an existing file".
+3. Upload the CONTENTS of the PowerCAT-ORDANOVA-GitHub-Upload folder, not the zip file or its enclosing folder.
+4. Verify README.md, LICENSE, CITATION.cff, src/, tests/, examples/, and .github/workflows/ appear at repository root.
+   GitHub's browser uploader may not preserve an entire nested folder in all browsers. If missing folders, use GitHub Desktop or git command-line instead.
+5. Commit message: Initial research preview v0.5.0
+6. Actions tab: check 'tests', then manually run 'Build Windows preview' to obtain an EXE artifact.
+
+Research preview only: simulations are not yet fully verified against Excel/VBA. Do not publish a stable scientific release or Zenodo DOI yet.
