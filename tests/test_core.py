@@ -58,7 +58,7 @@ def test_kde_density_and_display_modes():
  orig=r.simulated['A'].copy()
  x,y=smoothed_density(orig,bandwidth_factor=1.0)
  assert np.all(np.isfinite(y)) and np.all(y>=0)
- assert .97<np.trapz(y,x)<1.03
+ assert .97<np.trapezoid(y,x)<1.03
  for mode in ('Both','Empirical','Smoothed'):
   fig=make_figure(r,kind='PDF',series='A',pdf_display=mode,smoothing=1.5)
   assert len(fig.axes)==1
@@ -76,7 +76,7 @@ def test_reflected_kde_nonnegative_and_normalized():
   x,y=smoothed_density(values)
   assert x[0]==0 and np.all(x>=0)
   assert np.all(np.isfinite(y)) and np.all(y>=0)
-  assert 0.98 < np.trapz(y,x) < 1.02
+  assert 0.98 < np.trapezoid(y,x) < 1.02
 
 def test_reflected_kde_boundary_density():
  from powercatordanova.charts import smoothed_density
