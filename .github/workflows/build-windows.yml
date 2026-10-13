@@ -1,18 +1,51 @@
+
 name: Build Windows preview
+
 on:
   workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: windows-latest
+
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out source code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install -e '.[dev]'
-      - run: python -m pytest -q
-      - run: python -m PyInstaller --noconfirm --clean --onefile --windowed --name PowerCAT_ORDANOVA --paths src run_app.py
-      - uses: actions/upload-artifact@v4
+
+      - name: Install dependencies
+        run: python -m pip install -e ".[dev]"
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Build standalone EXE
+        run: python -m PyInstaller --noconfirm --clean --onefile --windowed --name PowerCAT_ORDANOVA --paths src run_app.py
+
+      - name: Save preview artifact
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/upload-artifact@v4
         with:
           name: PowerCAT_ORDANOVA_windows_preview
           path: dist/PowerCAT_ORDANOVA.exe
+
+      - name: Attach EXE to GitHub Release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        shell: pwsh
+        run: |
+          gh release upload "$env:RELEASE_TAG" "dist/PowerCAT_ORDANOVA.exe" --clobber
